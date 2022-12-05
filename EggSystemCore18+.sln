@@ -45,7 +45,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "egg39", "egg39\egg39.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "egg39_1", "egg39_1\egg39_1.csproj", "{75676D89-0FEB-4DB3-894F-BC09A412DDF8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "egg40", "egg40\egg40.csproj", "{3F203B83-95CE-4B54-9903-FCB9C537EE0B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "egg40", "egg40\egg40.csproj", "{3F203B83-95CE-4B54-9903-FCB9C537EE0B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EggSystemCore", "C:\Users\Student\source\repos\EggSystemCore\EggSystemCore\EggSystemCore.csproj", "{AC676AEE-1797-4DA0-9DB9-7786C7A3A82F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -141,6 +143,10 @@ Global
 		{3F203B83-95CE-4B54-9903-FCB9C537EE0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F203B83-95CE-4B54-9903-FCB9C537EE0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F203B83-95CE-4B54-9903-FCB9C537EE0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC676AEE-1797-4DA0-9DB9-7786C7A3A82F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC676AEE-1797-4DA0-9DB9-7786C7A3A82F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC676AEE-1797-4DA0-9DB9-7786C7A3A82F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC676AEE-1797-4DA0-9DB9-7786C7A3A82F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
