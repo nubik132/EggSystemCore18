@@ -1,0 +1,21 @@
+﻿<Window x:Class="egg60.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:egg60"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="525">
+    <Window.Resources>
+        <XmlDataProvider x:Key="phonesProvider" Source="phones.xml" XPath="phones" />
+    </Window.Resources>
+    <Grid Margin="0,0,0,-141">
+        <DataGrid x:Name="phonesGrid" AutoGenerateColumns="True" Margin="0,0,0,303">
+
+        </DataGrid>
+        <Button Content="Добавить" HorizontalAlignment="Center" Margin="0,316,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.192,0.284" Height="38" Width="77" Click="Button_Click"/>
+        <TextBox x:Name="nameTextBox" HorizontalAlignment="Left" Margin="10,286,0,0" TextWrapping="Wrap" Text="Имя" VerticalAlignment="Top" Width="206" Height="20"/>
+        <TextBox x:Name="phoneTextBox" HorizontalAlignment="Left" Margin="10,325,0,0" TextWrapping="Wrap" Text="Телефон" VerticalAlignment="Top" Width="206" Height="20"/>
+        <TextBox x:Name="commentTextBox" HorizontalAlignment="Left" Margin="10,363,0,0" TextWrapping="Wrap" Text="Комментарий" VerticalAlignment="Top" Width="206" Height="20"/>
+    </Grid>
+</Window>
